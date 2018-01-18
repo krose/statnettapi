@@ -1,0 +1,47 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# statnettapi
+
+The goal of statnettapi is to get data from their (API)[http://driftsdata.statnett.no/restapi]
+
+## Installation
+
+Install from github using the devtools package.
+
+```
+
+devtools::install_github("krose/statnettapi")
+
+```
+
+## Examples
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+
+library(statnettapi)
+library(tidyverse)
+
+glimpse(stat_physical_flow(from_date = as.Date("2018-01-17")))
+glimpse(stat_primary_reserves_day(local_date = as.Date("2018-01-17")))
+glimpse(stat_production_consumption(from_date = as.Date("2018-01-01")))
+glimpse(stat_production_consumption_latest_overview())
+glimpse(stat_frequency_minute(from_date = as.Date("2018-01-18")))
+glimpse(stat_frequency_second(from_date = as.Date("2018-01-18")))
+
+```
