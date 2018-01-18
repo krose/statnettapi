@@ -1,0 +1,14 @@
+Package: statnettapi
+Type: Package
+Title: Get Data From the Statnett API.
+Version: 0.1.0
+Author: Kenneth Rose
+Maintainer: Kenneth Rose <kennethrose82@gmail.com>
+Description: Get data from the Statnett API.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Import:
+    tidyverse,
+    httr
+RoxygenNote: 6.0.1
