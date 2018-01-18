@@ -3,6 +3,7 @@
 export(stat_frequency_minute)
 export(stat_frequency_second)
 export(stat_physical_flow)
+export(stat_physical_flow_map)
 export(stat_primary_reserves_day)
 export(stat_production_consumption)
 export(stat_production_consumption_latest_overview)
