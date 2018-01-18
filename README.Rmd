@@ -43,5 +43,6 @@ glimpse(stat_production_consumption(from_date = as.Date("2018-01-01")))
 glimpse(stat_production_consumption_latest_overview())
 glimpse(stat_frequency_minute(from_date = as.Date("2018-01-18")))
 glimpse(stat_frequency_second(from_date = as.Date("2018-01-18")))
+glimpse(stat_physical_flow_map())
 
 ```
