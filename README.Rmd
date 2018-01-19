@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 
 # statnettapi
 
-The goal of statnettapi is to get data from their (API)[http://driftsdata.statnett.no/restapi]
+The goal of statnettapi is to get data from their [API](http://driftsdata.statnett.no/restapi)
 
 ## Installation
 
